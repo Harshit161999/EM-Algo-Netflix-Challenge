@@ -20,7 +20,7 @@ def predict():
 
     output = model
 
-    return render_template('index.html', prediction_text='RMSE Score should be {}'.format(output))
+    return render_template('index.html', prediction_text='RMSE Score is {}'.format(output))
 
 # app.run(debug = True)
 if __name__ == "__main__":
